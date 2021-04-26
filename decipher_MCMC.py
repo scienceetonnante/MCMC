@@ -8,7 +8,7 @@ import pickle
 # =============================================================================
 
 # CREATE BRIGRAMS (if needed)
-COUNT_BIGRAMS = False
+COUNT_BIGRAMS = True
 
 corpus_filename = "swann.txt"
 bigrams_filename = "bigrams.dat"
@@ -179,7 +179,7 @@ for k in range(MAX_ITER):
 print("\nEnter second phase")      
 
 
-with open('dictionnary.dat', 'rb') as filehandle:
+with open('dictionnary.data', 'rb') as filehandle:
     dictionnary_words = pickle.load(filehandle)          
 
 cnt, total = count_correct_words(best_trad, dictionnary_words) 
