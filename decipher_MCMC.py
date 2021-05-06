@@ -7,8 +7,8 @@ import pickle
 
 # =============================================================================
 
-# CREATE BRIGRAMS (if needed)
-COUNT_BIGRAMS = False
+# CREATE BRIGRAMS (needed only the first time)
+COUNT_BIGRAMS = True
 
 corpus_filename = "swann.txt"
 bigrams_filename = "bigrams.dat"
