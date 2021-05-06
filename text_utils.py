@@ -173,7 +173,7 @@ def create_dictionnary():
     # We add simple letters and qu'
     words = ['QU'] + ['A','C','D','L','Y','M','N','S','T'] + dico.split(" ")
         
-    pickle.dump(words, open( "dictionnary.dat", "wb" ))
+    pickle.dump(words, open( "dictionnary.data", "wb" ))
     
     
 emolist = [
