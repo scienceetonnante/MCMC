@@ -1,6 +1,8 @@
 # Decipher using Markov Chain Monte Carlo
 
-Code used in my Youtube video : https://www.youtube.com/watch?v=z4tkHuWZbRA
+Code I created for my Youtube video : 
+
+[![screenshot](https://github.com/user-attachments/assets/409208d8-0d14-4727-a22b-42d2928658a2)](https://www.youtube.com/watch?v=z4tkHuWZbRA)
 
 Provided "as is" and without warranties of any kind :-)
 
